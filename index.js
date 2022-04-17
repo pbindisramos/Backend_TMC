@@ -10,7 +10,7 @@ dotenv.config();
 
 conectarDB();
 
-//Routing
+//Routing bien
 app.use("/api/usuarios", usuarioRoutes);
 
 const PORT = process.env.PORT || 4000;
